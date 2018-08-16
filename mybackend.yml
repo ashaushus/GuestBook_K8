@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: backend-pod
+  labels:
+    name: backend-pod
+    app: guestbook-app
+  spec:
+    containers:
+    - name: redis-container
+      image: redis
