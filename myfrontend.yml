@@ -5,7 +5,7 @@ metadata:
   labels:
     name: frontend-pod
     app: guestbook-app
-  spec:
+spec:
     containers:
     - name: frontend-container
       image: kubernetes/guestbook:v2

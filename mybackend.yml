@@ -5,7 +5,7 @@ metadata:
   labels:
     name: backend-pod
     app: guestbook-app
-  spec:
+spec:
     containers:
     - name: redis-container
       image: redis
