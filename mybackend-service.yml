@@ -6,10 +6,9 @@ metadata:
     name: backend-svc
     app: guestbook-app
 spec:
-      type: LoadBalancer
       ports:
-      - port: 80
-        targetPort: 80
+      - port: 6379
+        targetPort: 6379
       selector:
         name: backend-pod
         app: guestbook-app
