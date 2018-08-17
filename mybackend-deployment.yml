@@ -10,7 +10,7 @@ spec:
         matchLabels:
           name: backend-pod
           app: guestbook-app
-      templates:
+      template:
         metadata:
           name: backend-pod
           labels:
